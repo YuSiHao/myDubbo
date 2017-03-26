@@ -6,7 +6,7 @@ dubbo :
     name : hello-world-app-provider
   registry :
     address : zookeeper://localhost:2181
-  packageName : com.ysh.dubbox.provide.service.impl
+  packageName : com.ysh.dubbo.provide.service.impl
   admin :
     root :
       password : root

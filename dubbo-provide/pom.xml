@@ -4,23 +4,23 @@
 	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>myDubbox</groupId>
-		<artifactId>myDubbox</artifactId>
+		<groupId>myDubbo</groupId>
+		<artifactId>myDubbo</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
-	<artifactId>dubbox-provide</artifactId>
-	<name>dubbox-provide</name>
+	<artifactId>dubbo-provide</artifactId>
+	<name>dubbo-provide</name>
 	<packaging>pom</packaging>
 
 	<properties>
-		<start-class>com.ysh.dubbox.provide.ProvideApplication</start-class>
+		<start-class>com.ysh.dubbo.provide.ProvideApplication</start-class>
 	</properties>
 
 	<dependencies>
 		<dependency>
-			<groupId>myDubbox</groupId>
-			<artifactId>myDubbox</artifactId>
+			<groupId>myDubbo</groupId>
+			<artifactId>myDubbo</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
