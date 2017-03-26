@@ -2,20 +2,19 @@ dubbo :
   protocol : 
     port : -1
     name  : dubbo
-  application:
-    name : hello-world-app-consumer
-  registry:
+  application : 
+    name : hello-world-app-provider
+  registry :
     address : zookeeper://localhost:2181
-  packageName : com.ysh.dubbo.consumer.service.impl
+  packageName : com.ysh.dubbox.provide.service.impl
   admin :
     root :
       password : root
     guest :
       password : password
-  
-  
+
 server :
-  port : 8085
+  port : 8083
 
 
 

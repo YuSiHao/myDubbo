@@ -1,4 +1,4 @@
-package com.ysh.myDubbox.config;
+package com.ysh.myDubbo.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 

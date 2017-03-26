@@ -1,4 +1,4 @@
-package com.ysh.myDubbox.config;
+package com.ysh.myDubbo.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
